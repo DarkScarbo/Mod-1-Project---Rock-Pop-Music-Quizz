@@ -1,5 +1,19 @@
-# mod_1_project
-CLI app - Ruby
+## Rock-Pop Music Quizz
+This is a music quizz. a User can chooe between Rock or Pop and have to guess the artist of the given albums.
 
-User needs to guess the artist who wrote an album.
-App must be in Ruby and it will be a CLI app
+## Motivation
+This is the first proyect for the Flatiron School Software Engineering bootcamp. The idea is to build a Command Line CRUD App that uses a database to persist information. The goal of which is to demonstrate all of the skills learned in module one:
+
+Ruby
+Object Orientation
+Relationships (via ActiveRecord)
+Problem Solving (via creating a Command Line Interface (CLI))
+ 
+## Screenshot
+
+![nombre](url)
+
+## Initialization
+
+1. Clone and execute "bundle install" to add all the dependecies.
+2. Run the proyect in the terminal (run "rake run" in the app folder)
