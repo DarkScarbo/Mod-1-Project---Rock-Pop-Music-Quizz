@@ -11,7 +11,7 @@ Problem Solving (via creating a Command Line Interface (CLI))
  
 ## Screenshot
 
-!(https://github.com/DarkScarbo/Mod-1-Project---Rock-Pop-Music-Quizz/blob/master/music_cli_app/screenshot/Screenshot%202019-07-15%20at%2014.35.44.png)
+![](https://github.com/DarkScarbo/Mod-1-Project---Rock-Pop-Music-Quizz/blob/master/music_cli_app/screenshot/Screenshot%202019-07-15%20at%2014.35.44.png)
 
 ## Initialization
 
