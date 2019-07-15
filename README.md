@@ -4,10 +4,10 @@ This is a music quizz. a User can chooe between Rock or Pop and have to guess th
 ## Motivation
 This is the first proyect for the Flatiron School Software Engineering bootcamp. The idea is to build a Command Line CRUD App that uses a database to persist information. The goal of which is to demonstrate all of the skills learned in module one:
 
-Ruby
-Object Orientation
-Relationships (via ActiveRecord)
-Problem Solving (via creating a Command Line Interface (CLI))
+* Ruby.
+* Object Orientation.
+* Relationships (via ActiveRecord).
+* Problem Solving (via creating a Command Line Interface (CLI)).
  
 ## Screenshot
 
