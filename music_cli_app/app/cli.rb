@@ -18,7 +18,13 @@ class CLI
 
   def find_or_create_user
     name = @prompt.ask("What's your name?: ")
-    @user = User.find_or_create_by(name: name)
+    # binding.pry
+    if name == nil
+      puts "Enter your name, please"
+      find_or_create_user
+    else
+      @user = User.find_or_create_by(name: name)
+    end
   end
 
 
@@ -43,7 +49,7 @@ class CLI
     start = "START"
     help = "HELP"
     exit = "EXIT"
-    answer = @prompt.select('Select ' + 'START'.colorize(:color => :green) + ' if you want to play a new game, ' + 'HELP'.colorize(:color => :green) + ' if you are not sure about how ' + 'MUSIC QUIZ™'.colorize(:color => :cyan) + ' works ' + 'START'.colorize(:color => :green) + ' to quit', %w(START HELP EXIT))
+    answer = @prompt.select('Select ' + 'START'.colorize(:color => :green) + ' if you want to play a new game, ' + 'HELP'.colorize(:color => :green) + ' if you are not sure about how ' + 'MUSIC QUIZ'.colorize(:color => :cyan) + ' works ' + 'START'.colorize(:color => :green) + ' to quit', %w(START HELP EXIT))
     if answer == start
       find_or_create_user
     elsif answer == help
@@ -144,5 +150,6 @@ class CLI
     goodbye if @user
     system 'killall afplay'
   end
+
 
 end

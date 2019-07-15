@@ -57,7 +57,7 @@ diamond_eyes = Album.create(title: "Diamond Eyes", artist: deftones, genre: "Roc
 # POP #
 
 # artists #
-beyonce = Artist.create(name: "Beyoncé")
+beyonce = Artist.create(name: "Beyonce")
 britney = Artist.create(name: "Britney Spears")
 christina = Artist.create(name: "Christina Aguilera")
 katy = Artist.create(name: "Katy Perry")
@@ -69,12 +69,12 @@ swift =  Artist.create(name: "Taylor Swift")
 
 
 # albums #
-be1 = Album.create(title: "Dangerously in Love", artist: britney, genre: "Pop")
-be2 = Album.create(title: "B'Day", artist: britney, genre: "Pop")
-be3 = Album.create(title: "I Am... Sasha Fierce", artist: britney, genre: "Pop")
-be4 = Album.create(title: "4", artist: britney, genre: "Pop")
-#be5 = Album.create(title: "Beyoncé", artist: britney, genre: "Pop")
-be6 = Album.create(title: "Lemonade", artist: britney, genre: "Pop")
+be1 = Album.create(title: "Dangerously in Love", artist: beyonce, genre: "Pop")
+be2 = Album.create(title: "B'Day", artist: beyonce, genre: "Pop")
+be3 = Album.create(title: "I Am... Sasha Fierce", artist: beyonce, genre: "Pop")
+be4 = Album.create(title: "4", artist: beyonce, genre: "Pop")
+#be5 = Album.create(title: "Beyoncé", artist: beyonce, genre: "Pop")
+be6 = Album.create(title: "Lemonade", artist: beyonce, genre: "Pop")
 
 br1 = Album.create(title: "...Baby One More Time", artist: britney, genre: "Pop")
 br2 = Album.create(title: "Oops!... I Did It Again", artist: britney, genre: "Pop")
@@ -143,7 +143,7 @@ mc6 = Album.create(title: "Butterfly", artist: mariah, genre: "Pop")
 mc7 = Album.create(title: "Rainbow", artist: mariah, genre: "Pop")
 mc8 = Album.create(title: "Charmbracelet", artist: mariah, genre: "Pop")
 mc9 = Album.create(title: "The Emancipation of Mimi", artist: mariah, genre: "Pop")
-mc10 = Album.create(title: "E=MC²", artist: mariah, genre: "Pop")
+mc10 = Album.create(title: "E=MC2", artist: mariah, genre: "Pop")
 mc11 = Album.create(title: "Memoirs of an Imperfect Angel", artist: mariah, genre: "Pop")
 mc12 = Album.create(title: "Merry Christmas II You", artist: mariah, genre: "Pop")
 #mc13 = Album.create(title: "Me. I Am Mariah… The Elusive Chanteuse", artist: mariah, genre: "Pop")
